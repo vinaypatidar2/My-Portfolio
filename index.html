@@ -1,0 +1,226 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Shrajan Gupta - Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/3df97b829c.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <div id="header">
+        <div class="container">
+            <nav>
+                <img src="try11.png" class="logo">
+                <ul id="sidemenu">
+                    <li><a href="#header">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#services">Services</a></li>
+                    <li><a href="#portfolio">Portfolio</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                    <i class="fas fa-times" onclick="closemenu()"></i>
+                </ul>
+                <i class="fas fa-bars" onclick="openmenu()"></i>
+            </nav>
+            <div class="header-text">
+                <p>Frontend Web Developer</p>
+                <h1>Hi, I'm <span>Shrajan</span><br>Gupta From India</h1>
+            </div>
+        </div>
+    </div>
+    <!-- ------------about----- -->
+    <div id="about">
+        <div class="container">
+            <div class="row">
+                <div class="about-col-1">
+                    <img src="me.jpg" alt="">
+                </div>
+                <div class="about-col-2">
+                    <h1 class="sub-title">About Me</h1>
+                    <!-- <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quidem beatae ducimus unde dolorem, est ipsa? Eaque aspernatur, molestias dolorem itaque hic nam cumque ab consequatur? Harum, nesciunt. A, suscipit harum corporis consequatur vitae cumque hic ab expedita laudantium iste exercitationem vero eius quibusdam. Ullam delectus qui quisquam, amet eaque consequatur?</p> -->
+                    <p>I am deeply passionate about web designing and development. Combining aesthetics with functionality, I enjoy crafting visually appealing and user-friendly websites that leave a lasting impression. Through continuous learning and staying up-to-date with the latest industry trends, I aim to create seamless online experiences.App development is another area that truly excites me. I enjoy building intuitive and feature-rich applications that cater to the needs of users. Solving intricate coding problems brings me immense satisfaction. I thrive on the challenges that coding presents and approach each problem with a systematic and analytical mindset.
+                    </p>
+                    <div class="tab-titles">
+                        <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+                        <p class="tab-links" onclick="opentab('experience')">Experience</p>
+                        <p class="tab-links" onclick="opentab('education')">Education</p>
+                    </div>
+
+                    <div class="tab-contents active-tab" id="skills">
+                        <ul>
+                            
+                            <li><span>Web Development</span><br>Embracing the world of web development as a beginner, I am committed to mastering HTML, CSS, and JavaScript, eager to build responsive and user-friendly websites that merge my passion for design and coding, while continuously exploring new frameworks and techniques to enhance my abilities.</li>
+
+                            <br>
+                            
+                            <li><span>Android App Development</span><br>As a budding app developer, I am eager to dive into the world of app development, honing my skills in mobile technologies and frameworks to create intuitive and user-friendly applications that make a positive impact.</li>
+                            <!-- <li><span>UI/UX</span><br>Designing web/app interfaces</li> -->
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="experience">
+                        <ul>
+                            <li><span>2021 - Present</span>
+                                <br>
+                                As a beginner in web development, I have gained hands-on experience by successfully completing projects utilizing HTML, CSS, JavaScript, and MySQL. Through these projects, I have developed a strong foundation in front-end design, responsive layouts, interactive elements, and database integration, setting the stage for further growth and exploration in the field.</li>
+
+                             <li>With a moderate level of expertise in coding, I have gained experience in languages such as C, C++, Java, and Python. Through practical application and projects, I have honed my skills in algorithmic thinking, problem-solving, and developing efficient and reliable code in these versatile programming languages.</li>   
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="education">
+                        <ul>
+                            <li><span>2021 - 2025</span><br>B.Tech from SGSITS, Indore in computer science</li>
+                            <li><span>- 2020</span><br>Secondary education from Carmel Convent School, Bhopal</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+<!-- -------------services------ -->
+
+<div id="services">
+    <div class="container">
+        <h1 class="sub-title">My Services</h1>
+        <div class="services-list">
+            <div>
+                <i class="fa-brands fa-chrome"></i>
+                <h2>Web App development</h2>
+                <p>Builds responsive and user-friendly websites. Can build both single page/multi page web apps.</p>
+                <a href="more.html">learn more</a>
+            </div>
+            <div>
+                <i class="fa-brands fa-app-store"></i>
+                <h2>Android App development</h2>
+                <p>Clean, interactive and user friendly interface android apps using flutter.</p>
+                <a href="more.html">learn more</a>
+            </div>
+            <div>
+                <i class="fa-brands fa-youtube"></i>
+                <h2>Code designing</h2>
+                <p>Can design optimistic solution to different real work problems.</p>
+                <a href="more.html">learn more</a>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!-- ------------portfolio----------- -->
+<div id="portfolio">
+    <div class="container">
+        <h1 class="sub-title">My Projects</h1>
+        <div class="work-list">
+            <div class="work">
+                <img src="work12.jpg">
+                <div class="layer">
+                    <h3>Personal portfolio.</h3>
+                    <p>Single page personal portfoli using HTML, CSS and JS. Sends message to database.</p>
+                    <a href="more.html"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                </div>
+            </div>
+            <div class="work">
+                <img src="work21.jpg">
+                <div class="layer">
+                    <h3>Expense tracker web app.</h3>
+                    <p>Built expense tracker web app which helps in tracking and budget monthly expenses for students.</p>
+                    <a href="more.html"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                </div>
+            </div>
+            <div class="work">
+                <img src="work32.webp">
+                <div class="layer">
+                    <h3>Quick short web apps.</h3>
+                    <p>Small projects like calculator, digital and analog clock and more.</p>
+                    <a href="more.html"><i class="fa-solid fa-arrow-up-right-from-square" ></i></a>
+                </div>
+            </div>
+        </div>
+        <a href="more.html" class="btn">See More</a>
+    </div>
+</div>
+<!-- -------contact------- -->
+<div class="contact" id="contact">
+    <div class="container">
+        <div class="row">
+            <div class="contact-left">
+                <h1 class="sub-title">Contact Me</h1>
+                <p><i class="fas fa-paper-plane"></i>shrajangupta1@gmail.com</p>
+                <p><i class="fas fa-phone-square-alt"></i>+91 7024712229</p>
+                <div class="social-icons">
+                    <!-- <a href=""><i class="fab fa-facebook"></i></a> 
+                    <!-- <a href=""><i class="fab fa-twitter-square"></i></a> -->
+                    <a href="https://github.com/Shrajan8071/Portfolio-projects" target=”_blank”><i class="fa-brands fa-github"></i></a>
+                    <a href="https://www.linkedin.com/in/shrajangupta1/" target=”_blank”><i class="fab fa-linkedin"></i></a>
+                    <a href="https://www.instagram.com/_shrajan_/" target=”_blank”><i class="fab fa-instagram"></i></a>
+                    
+                </div>
+                <a href="shrajan_resume.docx" download  class="btn btn2">Download CV</a>
+            </div>
+            <div class="contact-right">
+                <form name="submit-to-google-sheet">
+                    <input type="text" name="Name" placeholder="Your Name" required>
+                    <input type="email" name="Email" placeholder="Your Email" required>
+                    <textarea name="Message" rows="6" placeholder="Your Message"></textarea>
+                     <button type="submit" class="btn btn2">Submit</button>
+                </form>
+                <span id="msg"></span>
+            </div>
+        </div>
+        <div class="copyright">
+            <p>Copyright &#169 Made by Shrajan Gupta</p>
+        </div>
+    </div>
+</div>
+
+<!-- -------------------- -->
+    <script>
+
+        var tablinks = document.getElementsByClassName("tab-links");
+        var tabcontents = document.getElementsByClassName("tab-contents");
+
+        function opentab(tabname){
+            for(tablink of tablinks){
+                tablink.classList.remove("active-link");
+            }
+            for(tabcontent of tabcontents){
+                tabcontent.classList.remove("active-tab");
+            }
+            event.currentTarget.classList.add("active-link");
+            document.getElementById(tabname).classList.add("active-tab");
+        }
+    </script>
+
+    <script>
+
+        var sidemenus=document.getElementById("sidemenu");
+
+        function openmenu(){
+            sidemenus.style.right="0";
+        }
+        function closemenu(){
+            sidemenus.style.right="-200px";
+        }
+
+    </script>
+
+<script>
+    const scriptURL = 'https://script.google.com/macros/s/AKfycbzNJpgrIZjs474T5DitAKzpL5aBVTcvU6VmB4vHNAAVsbLTF4EqUNoW_5Ikz9dmkjop/exec'
+    const form = document.forms['submit-to-google-sheet']
+    const msg = document.getElementById("msg")
+
+    form.addEventListener('submit', e => {
+      e.preventDefault()
+      fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+        .then(response => {
+            msg.innerHTML = "Message Sent Successfully"
+            setTimeout(function(){
+                msg.innerHTML = ""
+            },5000)
+            form.reset()
+        })
+        .catch(error => console.error('Error!', error.message))
+    })
+  </script>
+
+</body>
+</html>
